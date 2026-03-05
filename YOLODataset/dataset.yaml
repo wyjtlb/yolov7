@@ -1,6 +1,6 @@
-path: /Users/wuyongjie/Desktop/砂糖橘标签/YOLODataset
-train: images/train
-val: images/val
+path: /kaggle/working/yolov7/YOLODataset
+train: /kaggle/working/yolov7/YOLODataset/images/train
+val: /kaggle/working/yolov7/YOLODataset/images/val
 test:
 
 names:
