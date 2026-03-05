@@ -2,6 +2,7 @@ import argparse
 import logging
 import math
 import os
+os.environ["WANDB_MODE"] = "offline"
 import random
 import time
 from copy import deepcopy
@@ -36,8 +37,7 @@ from utils.torch_utils import ModelEMA, select_device, intersect_dicts, torch_di
 from utils.wandb_logging.wandb_utils import WandbLogger, check_wandb_resume
 
 logger = logging.getLogger(__name__)
-import os
-os.environ["WANDB_MODE"] = "offline"
+
 
 def train(hyp, opt, device, tb_writer=None):
     logger.info(colorstr('hyperparameters: ') + ', '.join(f'{k}={v}' for k, v in hyp.items()))
