@@ -3,5 +3,7 @@ train: /kaggle/working/yolov7/YOLODataset/images/train
 val: /kaggle/working/yolov7/YOLODataset/images/val
 test:
 
+nc: 1
+
 names:
     0: 0
