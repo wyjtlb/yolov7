@@ -1,6 +1,6 @@
 path: /kaggle/working/yolov7/YOLODataset
-train: images/train
-val: images/val
+train: /kaggle/working/yolov7/YOLODataset/images/train
+val: /kaggle/working/yolov7/YOLODataset/images/val
 test:
 
 nc: 1
