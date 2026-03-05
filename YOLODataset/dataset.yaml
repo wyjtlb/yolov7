@@ -1,7 +1,9 @@
-path: /Users/wuyongjie/Desktop/砂糖橘标签/YOLODataset
+path: /kaggle/working/yolov7/YOLODataset
 train: images/train
 val: images/val
 test:
 
+nc: 1
+
 names:
-    0: 0
+    0: orange
