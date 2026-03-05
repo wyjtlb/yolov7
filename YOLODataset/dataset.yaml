@@ -6,4 +6,4 @@ test:
 nc: 1
 
 names:
-    0: 'orange'
+    0: ['orange']
