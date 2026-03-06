@@ -2,7 +2,7 @@ import argparse
 import logging
 import math
 import os
-#
+os.environ["WANDB_DISABLED"] = "true"
 os.environ["WANDB_MODE"] = "offline"
 import random
 import time
